@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e376fd53.css",
+    "main.js": "/static/js/main.df3c9782.js",
+    "static/js/453.a921258b.chunk.js": "/static/js/453.a921258b.chunk.js",
+    "static/media/carousel-1.jpg": "/static/media/carousel-1.c37ef924a09242339bcc.jpg",
+    "static/media/carousel-2.jpg": "/static/media/carousel-2.1d4c3086659b1e63c7a3.jpg",
+    "static/media/about.jpg": "/static/media/about.5f8b4861689924323c60.jpg",
+    "static/media/cat-3.jpg": "/static/media/cat-3.a54e04e9db793d174bce.jpg",
+    "static/media/cat-4.jpg": "/static/media/cat-4.7e07c574dc4fa4d8412d.jpg",
+    "static/media/cat-1.jpg": "/static/media/cat-1.c251f2cc3ceeaf4c7500.jpg",
+    "static/media/team-3.jpg": "/static/media/team-3.ea511638364e1cfb9f69.jpg",
+    "static/media/cat-2.jpg": "/static/media/cat-2.f7ebf3772415ecaa4706.jpg",
+    "static/media/team-4.jpg": "/static/media/team-4.2c2eb82dd68e400f43cc.jpg",
+    "static/media/course-3.jpg": "/static/media/course-3.a1c27eb1a3f510840d13.jpg",
+    "static/media/course-2.jpg": "/static/media/course-2.caaa59628a447a69ede6.jpg",
+    "static/media/course-1.jpg": "/static/media/course-1.d8bd3ee123c7eba942e3.jpg",
+    "static/media/team-1.jpg": "/static/media/team-1.df075697e0ef60906dec.jpg",
+    "static/media/team-2.jpg": "/static/media/team-2.10ecf4f56a747ac0e25b.jpg",
+    "index.html": "/index.html",
+    "main.e376fd53.css.map": "/static/css/main.e376fd53.css.map",
+    "main.df3c9782.js.map": "/static/js/main.df3c9782.js.map",
+    "453.a921258b.chunk.js.map": "/static/js/453.a921258b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e376fd53.css",
+    "static/js/main.df3c9782.js"
+  ]
+}
