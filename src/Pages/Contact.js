@@ -29,7 +29,7 @@ const Reach = () => {
       <div class="container-xxl py-5">
         <div class="container">
           <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="section-title bg-white text-center text-primary px-3">Contact Us</h6>
+            <h6 class="section-title bg-white text-center main px-3">Contact Us</h6>
             <h1 class="mb-5">Contact For Any Query</h1>
           </div>
           <div class="row g-4">
@@ -41,7 +41,7 @@ const Reach = () => {
                   <i class="fa fa-map-marker-alt text-white"></i>
                 </div>
                 <div class="ms-3">
-                  <h5 class="text-primary">Office</h5>
+                  <h5 class="main">Office</h5>
                   <p class="mb-0">123 Street, New York, USA</p>
                 </div>
               </div>
@@ -50,7 +50,7 @@ const Reach = () => {
                   <i class="fa fa-phone-alt text-white"></i>
                 </div>
                 <div class="ms-3">
-                  <h5 class="text-primary">Mobile</h5>
+                  <h5 class="main">Mobile</h5>
                   <p class="mb-0">+012 345 67890</p>
                 </div>
               </div>
@@ -59,7 +59,7 @@ const Reach = () => {
                   <i class="fa fa-envelope-open text-white"></i>
                 </div>
                 <div class="ms-3">
-                  <h5 class="text-primary">Email</h5>
+                  <h5 class="main">Email</h5>
                   <p class="mb-0">info@example.com</p>
                 </div>
               </div>

@@ -41,7 +41,7 @@ const Courses = () => {
       <div className="container-xxl py-5 category">
         <div className="container">
           <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 className="section-title bg-white text-center text-primary px-3">Categories</h6>
+            <h6 className="section-title bg-white text-center main px-3">Categories</h6>
             <h1 className="mb-5">Courses Categories</h1>
           </div>
           <div className="row g-3">
@@ -52,7 +52,7 @@ const Courses = () => {
                     <img className="img-fluid" src={cat1} alt="" />
                     <div className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style={{ margin: "1px" }}>
                       <h5 className="m-0">Web Design</h5>
-                      <small className="text-primary">49 Courses</small>
+                      <small className="main">49 Courses</small>
                     </div>
                   </a>
                 </div>
@@ -61,7 +61,7 @@ const Courses = () => {
                     <img className="img-fluid" src={cat2} alt="" />
                     <div className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style={{ margin: "1px" }}>
                       <h5 className="m-0">Graphic Design</h5>
-                      <small className="text-primary">49 Courses</small>
+                      <small className="main">49 Courses</small>
                     </div>
                   </a>
                 </div>
@@ -70,7 +70,7 @@ const Courses = () => {
                     <img className="img-fluid" src={cat3} alt="" />
                     <div className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style={{ margin: "1px" }}>
                       <h5 className="m-0">Video Editing</h5>
-                      <small className="text-primary">49 Courses</small>
+                      <small className="main">49 Courses</small>
                     </div>
                   </a>
                 </div>
@@ -81,7 +81,7 @@ const Courses = () => {
                 <img className="img-fluid position-absolute w-100 h-100" src={cat4} alt="" style={{ objectFit: "cover" }} />
                 <div className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style={{ margin: "1px" }}>
                   <h5 className="m-0">Online Marketing</h5>
-                  <small className="text-primary">49 Courses</small>
+                  <small className="main">49 Courses</small>
                 </div>
               </a>
             </div>
@@ -96,7 +96,7 @@ const Courses = () => {
       <div className="container-xxl py-5">
         <div className="container">
           <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 className="section-title bg-white text-center text-primary px-3">Courses</h6>
+            <h6 className="section-title bg-white text-center main px-3">Courses</h6>
             <h1 className="mb-5">Popular Courses</h1>
           </div>
           <div className="row g-4 justify-content-center">
@@ -112,19 +112,19 @@ const Courses = () => {
                 <div className="text-center p-4 pb-0">
                   <h3 className="mb-0">$149.00</h3>
                   <div className="mb-3">
-                    <small className="fa fa-star text-primary"></small>
-                    <small className="fa fa-star text-primary"></small>
-                    <small className="fa fa-star text-primary"></small>
-                    <small className="fa fa-star text-primary"></small>
-                    <small className="fa fa-star text-primary"></small>
+                    <small className="fa fa-star main"></small>
+                    <small className="fa fa-star main"></small>
+                    <small className="fa fa-star main"></small>
+                    <small className="fa fa-star main"></small>
+                    <small className="fa fa-star main"></small>
                     <small>(123)</small>
                   </div>
                   <h5 className="mb-4">Web Design & Development Course for Beginners</h5>
                 </div>
                 <div className="d-flex border-top">
-                  <small className="flex-fill text-center border-end py-2"><i className="fa fa-user-tie text-primary me-2"></i>John Doe</small>
-                  <small className="flex-fill text-center border-end py-2"><i className="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                  <small className="flex-fill text-center py-2"><i className="fa fa-user text-primary me-2"></i>30 Students</small>
+                  <small className="flex-fill text-center border-end py-2"><i className="fa fa-user-tie main me-2"></i>John Doe</small>
+                  <small className="flex-fill text-center border-end py-2"><i className="fa fa-clock main me-2"></i>1.49 Hrs</small>
+                  <small className="flex-fill text-center py-2"><i className="fa fa-user main me-2"></i>30 Students</small>
                 </div>
               </div>
             </div>
@@ -140,19 +140,19 @@ const Courses = () => {
                 <div className="text-center p-4 pb-0">
                   <h3 className="mb-0">$149.00</h3>
                   <div className="mb-3">
-                    <small className="fa fa-star text-primary"></small>
-                    <small className="fa fa-star text-primary"></small>
-                    <small className="fa fa-star text-primary"></small>
-                    <small className="fa fa-star text-primary"></small>
-                    <small className="fa fa-star text-primary"></small>
+                    <small className="fa fa-star main"></small>
+                    <small className="fa fa-star main"></small>
+                    <small className="fa fa-star main"></small>
+                    <small className="fa fa-star main"></small>
+                    <small className="fa fa-star main"></small>
                     <small>(123)</small>
                   </div>
                   <h5 className="mb-4">Web Design & Development Course for Beginners</h5>
                 </div>
                 <div className="d-flex border-top">
-                  <small className="flex-fill text-center border-end py-2"><i className="fa fa-user-tie text-primary me-2"></i>John Doe</small>
-                  <small className="flex-fill text-center border-end py-2"><i className="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                  <small className="flex-fill text-center py-2"><i className="fa fa-user text-primary me-2"></i>30 Students</small>
+                  <small className="flex-fill text-center border-end py-2"><i className="fa fa-user-tie main me-2"></i>John Doe</small>
+                  <small className="flex-fill text-center border-end py-2"><i className="fa fa-clock main me-2"></i>1.49 Hrs</small>
+                  <small className="flex-fill text-center py-2"><i className="fa fa-user main me-2"></i>30 Students</small>
                 </div>
               </div>
             </div>
@@ -168,19 +168,19 @@ const Courses = () => {
                 <div className="text-center p-4 pb-0">
                   <h3 className="mb-0">$149.00</h3>
                   <div className="mb-3">
-                    <small className="fa fa-star text-primary"></small>
-                    <small className="fa fa-star text-primary"></small>
-                    <small className="fa fa-star text-primary"></small>
-                    <small className="fa fa-star text-primary"></small>
-                    <small className="fa fa-star text-primary"></small>
+                    <small className="fa fa-star main"></small>
+                    <small className="fa fa-star main"></small>
+                    <small className="fa fa-star main"></small>
+                    <small className="fa fa-star main"></small>
+                    <small className="fa fa-star main"></small>
                     <small>(123)</small>
                   </div>
                   <h5 className="mb-4">Web Design & Development Course for Beginners</h5>
                 </div>
                 <div className="d-flex border-top">
-                  <small className="flex-fill text-center border-end py-2"><i className="fa fa-user-tie text-primary me-2"></i>John Doe</small>
-                  <small className="flex-fill text-center border-end py-2"><i className="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                  <small className="flex-fill text-center py-2"><i className="fa fa-user text-primary me-2"></i>30 Students</small>
+                  <small className="flex-fill text-center border-end py-2"><i className="fa fa-user-tie main me-2"></i>John Doe</small>
+                  <small className="flex-fill text-center border-end py-2"><i className="fa fa-clock main me-2"></i>1.49 Hrs</small>
+                  <small className="flex-fill text-center py-2"><i className="fa fa-user main me-2"></i>30 Students</small>
                 </div>
               </div>
             </div>
@@ -194,7 +194,7 @@ const Courses = () => {
       <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div className="container">
           <div className="text-center">
-            <h6 className="section-title bg-white text-center text-primary px-3">Testimonial</h6>
+            <h6 className="section-title bg-white text-center main px-3">Testimonial</h6>
             <h1 className="mb-5">Our Students Say!</h1>
           </div>
           <div className="owl-carousel testimonial-carousel position-relative">
