@@ -12,6 +12,7 @@ import test1 from '../img/testimonial-1.jpg';
 import test2 from '../img/testimonial-2.jpg';
 import test3 from '../img/testimonial-3.jpg';
 import test4 from '../img/testimonial-4.jpg';
+import { NavLink } from 'react-router-dom';
 
 const Courses = () => {
   return (
@@ -41,7 +42,6 @@ const Courses = () => {
       <div className="container-xxl py-5 category">
         <div className="container">
           <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 className="section-title bg-white text-center main px-3">Categories</h6>
             <h1 className="mb-5">Courses Categories</h1>
           </div>
           <div className="row g-3">
@@ -77,10 +77,10 @@ const Courses = () => {
               </div>
             </div>
             <div className="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style={{ minHeight: "350px" }}>
-              <a className="position-relative d-block h-100 overflow-hidden" href="">
+              <a className="position-relative d-block h-100 overflow-hidden">
                 <img className="img-fluid position-absolute w-100 h-100" src={cat4} alt="" style={{ objectFit: "cover" }} />
                 <div className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style={{ margin: "1px" }}>
-                  <h5 className="m-0">Online Marketing</h5>
+                  <h5 className="m-0"><NavLink to="/Details">Online Marketing</NavLink></h5>
                   <small className="main">49 Courses</small>
                 </div>
               </a>
@@ -88,7 +88,6 @@ const Courses = () => {
           </div>
         </div>
       </div>
-
       {/* <!-- Categories Start --> */}
 
 

@@ -21,15 +21,15 @@ const Home = () => {
 		<div>
 			
 			{/* Home  */}
-			<div id="home" class="hero-area">
-				<div class="bg-image bg-parallax overlay" id='hero-img'></div>
-				<div class="home-wrapper">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-8">
-								<h1 class="white-text">Edusite Free Online Training Courses</h1>
-								<p class="lead white-text">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant, eu pro alii error homero.</p>
-								<a class="main-button icon-button">Get Started!</a>
+			<div id="home" className="hero-area">
+				<div className="bg-image bg-parallax overlay" id='hero-img'></div>
+				<div className="home-wrapper">
+					<div className="container">
+						<div className="row">
+							<div className="col-md-8">
+								<h1 className="white-text">Edusite Free Online Training Courses</h1>
+								<p className="lead white-text">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant, eu pro alii error homero.</p>
+								<a className="main-button icon-button">Get Started!</a>
 							</div>
 						</div>
 					</div>
@@ -37,38 +37,38 @@ const Home = () => {
 			</div>
 			{/* Home  */}
 			{/* About  */}
-			<div id="about" class="section">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="section-header">
+			<div id="about" className="section">
+				<div className="container">
+					<div className="row">
+						<div className="col-md-6">
+							<div className="section-header">
 								<h2>Welcome to Edusite</h2>
-								<p class="lead">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant.</p>
+								<p className="lead">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant.</p>
 							</div>
-							<div class="feature">
-								<i class="feature-icon fa fa-flask"></i>
-								<div class="feature-content">
+							<div className="feature">
+								<i className="feature-icon fa fa-flask"></i>
+								<div className="feature-content">
 									<h4>Online Courses </h4>
 									<p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
 								</div>
 							</div>
-							<div class="feature">
-								<i class="feature-icon fa fa-users"></i>
-								<div class="feature-content">
+							<div className="feature">
+								<i className="feature-icon fa fa-users"></i>
+								<div className="feature-content">
 									<h4>Expert Teachers</h4>
 									<p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
 								</div>
 							</div>
-							<div class="feature">
-								<i class="feature-icon fa fa-comments"></i>
-								<div class="feature-content">
+							<div className="feature">
+								<i className="feature-icon fa fa-comments"></i>
+								<div className="feature-content">
 									<h4>Community</h4>
 									<p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6">
-							<div class="about-img">
+						<div className="col-md-6">
+							<div className="about-img">
 								<img src={about} alt="" />
 							</div>
 						</div>
@@ -121,129 +121,129 @@ const Home = () => {
 			</div>
 			{/* <!-- Service End --> */}
 			{/* course  */}
-			<div id="courses" class="section">
-				<div class="container">
-					<div class="row">
-						<div class="section-header text-center">
+			<div id="courses" className="section">
+				<div className="container">
+					<div className="row">
+						<div className="section-header text-center">
 							<h2>Explore Courses</h2>
-							<p class="lead">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant.</p>
+							<p className="lead">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant.</p>
 						</div>
 					</div>
 					<div id="courses-wrapper">
-						<div class="row">
-							<div class="col-md-3 col-sm-6 col-xs-6">
-								<div class="course">
-									<a class="course-img">
+						<div className="row">
+							<div className="col-md-3 col-sm-6 col-xs-6">
+								<div className="course">
+									<a className="course-img">
 										<img src={course1} alt="" />
-										<i class="course-link-icon fa fa-link"></i>
+										<i className="course-link-icon fa fa-link"></i>
 									</a>
-									<a class="course-title">Beginner to Pro in Excel: Financial Modeling and Valuation</a>
-									<div class="course-details">
-										<span class="course-category">Business</span>
-										<span class="course-price course-free">Free</span>
+									<a className="course-title">Beginner to Pro in Excel: Financial Modeling and Valuation</a>
+									<div className="course-details">
+										<span className="course-category">Business</span>
+										<span className="course-price course-free">Free</span>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3 col-sm-6 col-xs-6">
-								<div class="course">
-									<a class="course-img">
+							<div className="col-md-3 col-sm-6 col-xs-6">
+								<div className="course">
+									<a className="course-img">
 										<img src={course2} alt="" />
-										<i class="course-link-icon fa fa-link"></i>
+										<i className="course-link-icon fa fa-link"></i>
 									</a>
-									<a class="course-title">Introduction to CSS </a>
-									<div class="course-details">
-										<span class="course-category">Web Design</span>
-										<span class="course-price course-premium">Premium</span>
+									<a className="course-title">Introduction to CSS </a>
+									<div className="course-details">
+										<span className="course-category">Web Design</span>
+										<span className="course-price course-premium">Premium</span>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3 col-sm-6 col-xs-6">
-								<div class="course">
-									<a class="course-img">
+							<div className="col-md-3 col-sm-6 col-xs-6">
+								<div className="course">
+									<a className="course-img">
 										<img src={course3} alt="" />
-										<i class="course-link-icon fa fa-link"></i>
+										<i className="course-link-icon fa fa-link"></i>
 									</a>
-									<a class="course-title">The Ultimate Drawing Course | From Beginner To Advanced</a>
-									<div class="course-details">
-										<span class="course-category">Drawing</span>
-										<span class="course-price course-premium">Premium</span>
+									<a className="course-title">The Ultimate Drawing Course | From Beginner To Advanced</a>
+									<div className="course-details">
+										<span className="course-category">Drawing</span>
+										<span className="course-price course-premium">Premium</span>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3 col-sm-6 col-xs-6">
-								<div class="course">
-									<a class="course-img">
+							<div className="col-md-3 col-sm-6 col-xs-6">
+								<div className="course">
+									<a className="course-img">
 										<img src={course3} alt="" />
-										<i class="course-link-icon fa fa-link"></i>
+										<i className="course-link-icon fa fa-link"></i>
 									</a>
-									<a class="course-title">The Complete Web Development Course</a>
-									<div class="course-details">
-										<span class="course-category">Web Development</span>
-										<span class="course-price course-free">Free</span>
+									<a className="course-title">The Complete Web Development Course</a>
+									<div className="course-details">
+										<span className="course-category">Web Development</span>
+										<span className="course-price course-free">Free</span>
 									</div>
 								</div>
 							</div>
 						</div>
 
 
-						<div class="row">
-							<div class="col-md-3 col-sm-6 col-xs-6">
-								<div class="course">
-									<a class="course-img">
+						<div className="row">
+							<div className="col-md-3 col-sm-6 col-xs-6">
+								<div className="course">
+									<a className="course-img">
 										<img src={course2} alt="" />
-										<i class="course-link-icon fa fa-link"></i>
+										<i className="course-link-icon fa fa-link"></i>
 									</a>
-									<a class="course-title">PHP Tips, Tricks, and Techniques</a>
-									<div class="course-details">
-										<span class="course-category">Web Development</span>
-										<span class="course-price course-free">Free</span>
+									<a className="course-title">PHP Tips, Tricks, and Techniques</a>
+									<div className="course-details">
+										<span className="course-category">Web Development</span>
+										<span className="course-price course-free">Free</span>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3 col-sm-6 col-xs-6">
-								<div class="course">
-									<a class="course-img">
+							<div className="col-md-3 col-sm-6 col-xs-6">
+								<div className="course">
+									<a className="course-img">
 										<img src={course1} alt="" />
-										<i class="course-link-icon fa fa-link"></i>
+										<i className="course-link-icon fa fa-link"></i>
 									</a>
-									<a class="course-title">All You Need To Know About Web Design</a>
-									<div class="course-details">
-										<span class="course-category">Web Design</span>
-										<span class="course-price course-free">Free</span>
+									<a className="course-title">All You Need To Know About Web Design</a>
+									<div className="course-details">
+										<span className="course-category">Web Design</span>
+										<span className="course-price course-free">Free</span>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3 col-sm-6 col-xs-6">
-								<div class="course">
-									<a class="course-img">
+							<div className="col-md-3 col-sm-6 col-xs-6">
+								<div className="course">
+									<a className="course-img">
 										<img src={course3} alt="" />
-										<i class="course-link-icon fa fa-link"></i>
+										<i className="course-link-icon fa fa-link"></i>
 									</a>
-									<a class="course-title">How to Get Started in Photography</a>
-									<div class="course-details">
-										<span class="course-category">Photography</span>
-										<span class="course-price course-free">Free</span>
+									<a className="course-title">How to Get Started in Photography</a>
+									<div className="course-details">
+										<span className="course-category">Photography</span>
+										<span className="course-price course-free">Free</span>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3 col-sm-6 col-xs-6">
-								<div class="course">
-									<a class="course-img">
+							<div className="col-md-3 col-sm-6 col-xs-6">
+								<div className="course">
+									<a className="course-img">
 										<img src={course2} alt="" />
-										<i class="course-link-icon fa fa-link"></i>
+										<i className="course-link-icon fa fa-link"></i>
 									</a>
-									<a class="course-title">Typography From A to Z</a>
-									<div class="course-details">
-										<span class="course-category">Typography</span>
-										<span class="course-price course-free">Free</span>
+									<a className="course-title">Typography From A to Z</a>
+									<div className="course-details">
+										<span className="course-category">Typography</span>
+										<span className="course-price course-free">Free</span>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="center-btn">
-							<a class="main-button icon-button">More Courses</a>
+					<div className="row">
+						<div className="center-btn">
+							<a className="main-button icon-button">More Courses</a>
 						</div>
 					</div>
 				</div>
