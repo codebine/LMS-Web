@@ -24,44 +24,6 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-            {/* <header id="header" className="header d-flex align-items-center fixed-top">
-                <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-                    <a className="logo d-flex align-items-center me-auto me-lg-0">
-                        <h1 className="sitename">GP</h1>
-                        <span>.</span>
-                    </a>
-                    <nav id="navmenu" className="navmenu">
-                        <ul>
-                            <li>
-                                <NavLink to="/" className="nav-item nav-link active">
-                                    Home
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="/About" className="nav-item nav-link">
-                                    About
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="/Courses" className="nav-item nav-link">
-                                    Courses
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="/Contact" className="nav-item nav-link">
-                                    Contact
-                                </NavLink>
-                            </li>
-                        </ul>
-                        <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
-                    </nav>
-
-
-                    <a className="btn-getstarted" href="index.html#about">
-                        Get Started
-                    </a>
-                </div>
-            </header> */}
             {/* <!-- Navbar End --> */}
         </div>
     )

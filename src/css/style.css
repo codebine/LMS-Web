@@ -32,6 +32,9 @@
 .bg-main {
 	background-color: rgba(255, 103, 0, 0.34) !important;
   }
+  .navbar-nav .nav-item .nav-link a{
+	color: rgb(255, 103, 0) !important;
+  }
 
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
