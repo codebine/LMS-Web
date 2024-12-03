@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react'
 import '../css/style.css'
 import "bootstrap/dist/css/bootstrap.min.css";
