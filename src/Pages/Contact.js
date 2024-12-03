@@ -6,7 +6,7 @@ const Reach = () => {
   return (
     <div>
       {/* <!-- Header Start --> */}
-      <div className="container-fluid bg-primary py-5 mb-5 page-header">
+      <div className="container-fluid bg-main py-5 mb-5 page-header">
         <div className="container py-5">
           <div className="row justify-content-center">
             <div className="col-lg-10 text-center">
@@ -37,7 +37,7 @@ const Reach = () => {
               <h5>Get In Touch</h5>
               <p className="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
               <div className="d-flex align-items-center mb-3">
-                <div className="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style={{ width: "50px", height: "50px" }}>
+                <div className="d-flex align-items-center justify-content-center flex-shrink-0 bg-main" style={{ width: "50px", height: "50px" }}>
                   <i className="fa fa-map-marker-alt text-white"></i>
                 </div>
                 <div className="ms-3">
@@ -46,7 +46,7 @@ const Reach = () => {
                 </div>
               </div>
               <div className="d-flex align-items-center mb-3">
-                <div className="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style={{ width: "50px", height: "50px" }}>
+                <div className="d-flex align-items-center justify-content-center flex-shrink-0 bg-main" style={{ width: "50px", height: "50px" }}>
                   <i className="fa fa-phone-alt text-white"></i>
                 </div>
                 <div className="ms-3">
@@ -55,7 +55,7 @@ const Reach = () => {
                 </div>
               </div>
               <div className="d-flex align-items-center">
-                <div className="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style={{ width: "50px", height: "50px" }}>
+                <div className="d-flex align-items-center justify-content-center flex-shrink-0 bg-main" style={{ width: "50px", height: "50px" }}>
                   <i className="fa fa-envelope-open text-white"></i>
                 </div>
                 <div className="ms-3">

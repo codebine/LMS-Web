@@ -29,11 +29,9 @@
 	background-color: #ff6700 !important;
 	border-color: #ff6700 !important;
 }
-.bg-primary {
+.bg-main {
 	background-color: rgba(255, 103, 0, 0.34) !important;
   }
-
-
 
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
