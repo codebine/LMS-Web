@@ -29,7 +29,6 @@ const Details = () => {
             <div className="container-xxl py-5">
                 <div className="container">
                     <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-                        <h1 className="mb-5">Popular Courses</h1>
                     </div>
                     <div className="row g-4 justify-content-center">
                         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
