@@ -17,7 +17,7 @@ const Header = () => {
   </a>
   <button
     type="button"
-    className="navbar-toggler me-4"
+    className="navbar-toggler me-4" 
     data-bs-toggle="collapse"
     data-bs-target="#navbarCollapse"
     aria-controls="navbarCollapse"
@@ -28,7 +28,7 @@ const Header = () => {
   </button>
   <div className="collapse navbar-collapse" id="navbarCollapse">
     <div className="navbar-nav ms-auto p-4 p-lg-0">
-      <NavLink to="/" className="nav-item nav-link active">
+      <NavLink to="/LMS-Web" className="nav-item nav-link active">
         Home
       </NavLink>
       <NavLink to="/About" className="nav-item nav-link">

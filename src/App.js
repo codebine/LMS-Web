@@ -14,7 +14,7 @@ const App = () => {
       <BrowserRouter>
         <Header />
         <Routes >
-          <Route path='/' element={<Home />}></Route>
+          <Route path='/LMS-Web' element={<Home />}></Route>
           <Route path='/About' element={<About/>}></Route>
           <Route path='/Courses' element={<Courses/>}></Route>
           <Route path='/Contact' element={<Contact/>}></Route>
