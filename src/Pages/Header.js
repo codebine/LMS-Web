@@ -12,7 +12,7 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
   <a href="index.html" className="navbar-brand d-flex align-items-center px-4 px-lg-5">
     <h2 className="m-0 main">
-      <i className="fa fa-book me-3"></i>eLEARNING
+      <i className="fa fa-book me-3"></i>Parinsoft
     </h2>
   </a>
   <button
