@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/LMS-Web/static/css/main.bc138b15.css",
-    "main.js": "/LMS-Web/static/js/main.a13dd5db.js",
+    "main.css": "/LMS-Web/static/css/main.f25ead18.css",
+    "main.js": "/LMS-Web/static/js/main.6c97eddd.js",
     "static/js/453.a921258b.chunk.js": "/LMS-Web/static/js/453.a921258b.chunk.js",
     "static/media/about.png": "/LMS-Web/static/media/about.d9315395980918eef80f.png",
     "static/media/home-background.jpg": "/LMS-Web/static/media/home-background.080da4dd7fa7586c6707.jpg",
@@ -18,12 +18,12 @@
     "static/media/team-1.jpg": "/LMS-Web/static/media/team-1.df075697e0ef60906dec.jpg",
     "static/media/team-2.jpg": "/LMS-Web/static/media/team-2.10ecf4f56a747ac0e25b.jpg",
     "index.html": "/LMS-Web/index.html",
-    "main.bc138b15.css.map": "/LMS-Web/static/css/main.bc138b15.css.map",
-    "main.a13dd5db.js.map": "/LMS-Web/static/js/main.a13dd5db.js.map",
+    "main.f25ead18.css.map": "/LMS-Web/static/css/main.f25ead18.css.map",
+    "main.6c97eddd.js.map": "/LMS-Web/static/js/main.6c97eddd.js.map",
     "453.a921258b.chunk.js.map": "/LMS-Web/static/js/453.a921258b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc138b15.css",
-    "static/js/main.a13dd5db.js"
+    "static/css/main.f25ead18.css",
+    "static/js/main.6c97eddd.js"
   ]
 }
